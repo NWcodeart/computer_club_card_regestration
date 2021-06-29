@@ -105,3 +105,56 @@ button{
 a{
   color: #fb3640;
 }
+@media (max-width: 800px) {
+  .content-body{
+    height: 700px;
+    width: 400px;
+  }
+  .title{
+    width: 370px;
+    height: auto;
+  }
+  .footer{
+    width: 400px;
+    margin-top: 435px;
+  }
+  .content{
+    padding-top: 115px;
+  }
+  body{
+    padding-top: 10px;
+  }
+  h1{
+    font-size: 1.8em;
+  }
+  .input-div-box{
+    width: 100%;
+  }
+  .input-title{
+    font-size: 1.2em;
+  }
+  .input-radio-text{
+    margin-right: 50px;
+  }
+}
+@media(max-width:376px) {
+  .content-body{
+    height: 700px;
+    width: 360px;
+    margin: none;
+  }
+  .title{
+    width: 330px;
+    height: auto;
+  }
+  .footer{
+    width: 360px;
+    margin-top: 435px;
+  }
+  body{
+    padding: none;
+  }
+  .input-radio-text{
+    margin-right: 10px;
+  }
+}
