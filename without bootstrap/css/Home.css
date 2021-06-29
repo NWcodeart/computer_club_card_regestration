@@ -1,0 +1,107 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+*{
+  font-family: 'Montserrat', sans-serif;
+}
+body{
+  background-color: #E5E5E5;
+  padding-top:100px;
+}
+.content-body{
+  background-color: #fff;
+  height: 395px;
+  width: 900px;
+  margin: auto;
+  border-radius: 30px;
+  box-shadow: 5px 10px 20px #888888;
+}
+.content{
+  padding-top: 85px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 80px;
+}
+.title{
+  padding-left: 30px;
+  background-color: #212529;
+  border-top-left-radius:30px;
+  border-top-right-radius: 30px;
+  width: 870px;
+  color: #fff;
+}
+.title, .footer{
+  position: absolute;
+  height: 75px;
+}
+.input-div-box{
+  width: 30%;
+  padding: 7px;
+  float: left;
+}
+.radio-input-div{
+  width: 100%;
+  padding: 10px;
+  float: left;
+}
+.input-title{
+  font-size: 1.5em;
+}
+.input-text, .select-input{
+  width: 80%;
+  margin-top: 5px;
+  padding: 5px 0px 5px 10px;
+  border-radius: 10px;
+  outline: none;
+  border-color: #000;
+  border-width: thin;
+}
+.select-input{
+  background-color: #212529;
+  color: #fff;
+}
+.input-radio-text{
+  font-size: 1.1em;
+}
+.footer{
+  background-color: #212529;
+  border-bottom-left-radius:30px;
+  border-bottom-right-radius: 30px;
+  width: 900px;
+  color: #fff;
+  margin-top: 155px;
+}
+button{
+  border-radius: 20px;
+  font-size: 1.3em;
+  float: right;
+  margin-top: 18px;
+  padding: 5px 10px 5px 10px;
+}
+.cancel-btn{
+  background-color: #212529;
+  color: #fff;
+  border-style: solid;
+  border-width: thin;
+  border-color: #fff;
+  margin-right: 13px;
+}
+.cancel-btn:hover{
+  border-color: #FCA311;
+  color: #FCA311;
+}
+.save-btn{
+  background-color: #fff;
+  color: #000;
+  border-style: solid;
+  border-width: thin;
+  border-color: #fff;
+  margin-right: 23px;
+}
+.save-btn:hover{
+  border-color: #FCA311;
+  background-color: #FCA311;
+}
+a{
+  color: #fb3640;
+}
