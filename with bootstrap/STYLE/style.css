@@ -4,10 +4,7 @@
 *{
   font-family: 'Montserrat', sans-serif;
 }
-.body{
+body{
   background-color: #E5E5E5;
-  padding-top:1300px;
-}
-.content-body{
-  background-color: #fff;
+  padding-top:100px;
 }

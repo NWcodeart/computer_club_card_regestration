@@ -1,0 +1,61 @@
+@font-face {
+    font-family: Montserrat ;
+    src: url(../font/Montserrat-Light.ttf);
+}
+*{
+    font-family: Montserrat;
+}
+body{
+    background-color:#E5E5E5;
+    padding-top: 108px;
+}
+h1{
+  font-size: 2em;
+}
+.content-body{
+    height: 395px;
+    width: 900px;
+}
+.border-radius{
+    border-radius: 30px;
+}
+.title-div{
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    color: white;
+    height: 75px;
+    padding-left: 30px;
+    padding-top: 22px;;
+}
+.content-div{
+    padding-top: 7px;
+    padding-left: 19px;
+    padding-right: 45px;
+}
+.rounded-4{
+    width: 88%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 5px 0px 5px 10px;
+    border-radius: 10px;
+    outline: none;
+    font-size: smaller;
+    border-width: thin;
+}
+.float-right{
+    float: right;
+}
+.border-thin{
+    border-width: thin;
+}
+.footer-btn{
+  font-size: 1.3em;
+}
+.title-input{
+    height: 20px;;
+}
+.input{
+    margin-bottom: 10px;;
+    padding: 5px 0px 5px 10px;
+    height: 28px;
+}

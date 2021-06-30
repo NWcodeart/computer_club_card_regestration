@@ -1,4 +1,4 @@
-document.getElementById("title").innerHTML = "Hello JavaScript";
+
 
 document.getElementById("button").addEventListener("click",
 function() {
